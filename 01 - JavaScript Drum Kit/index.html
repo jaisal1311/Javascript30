@@ -6,8 +6,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <embed name="snd" SRC="sounds/clap.wav" autostart = "true">
-
 
   <div class="keys">
     <div data-key="65" class="key">
@@ -82,7 +80,6 @@
       audio.play();
     }
   
-    window.onload
 
     const keys = Array.from(document.querySelectorAll('.key'));
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));

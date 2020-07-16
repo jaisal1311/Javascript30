@@ -1,0 +1,56 @@
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  color: blanchedalmond
+}
+
+.home {
+  height: 100vh;
+  background-color: blanchedalmond ;
+}
+
+.splash {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.intro {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.CTA {
+  width: 300px;
+  padding: 20px;
+  color: #28324E;
+  font-size: large;
+}
+
+.CTA:hover{
+  background-color: #28324E;
+  border-color: white;
+  color: white;
+}
+
+.splash {
+  color:  #28324E;
+  /* font-size: 100rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.result {
+  font-size: 100rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.splash p {
+  padding-top: 10px;
+  color:  #28324E;
+}
